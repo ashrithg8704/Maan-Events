@@ -4,7 +4,7 @@ import { visionTool } from "@sanity/vision";
 
 import { apiVersion, dataset, projectId } from "./sanity/env";
 import { schemaTypes } from "./sanity/schemas";
-import { structure } from "./sanity/structure";
+import { structure } from "./sanity/deskStructure";
 
 export default defineConfig({
   basePath: "/studio",
